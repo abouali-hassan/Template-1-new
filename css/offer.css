@@ -1,0 +1,40 @@
+.offer-content {
+    overflow: hidden;
+}
+
+.offer-item {
+    float: left;
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    padding: 30px 15px 30px 70px;
+}
+
+.offer-item.mg {
+    margin: 0 2%;
+}
+
+.offer-item .icon {
+    position: absolute;
+    left: 15px;
+    top: 35px;
+    color: #6195ff;
+}
+
+.offer-item-titel {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: color 0.9s;
+}
+
+.offer-item-desc {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #999;
+}
+
+.offer-item:hover .offer-item-titel {
+    color: #fff;
+}
